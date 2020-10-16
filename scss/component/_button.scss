@@ -1,0 +1,46 @@
+.btn {
+    margin-top: 15px;
+    width: 100%;
+    color: #fff;
+    border: none;
+    padding: 10px 0;
+    text-transform: uppercase;
+    border-radius: 5px;
+    transition: background-color 0.75s;
+}
+
+.default {
+    background-color: $secondary-accent-color;
+    &:hover{
+        background-color: $secondary-accent-hover;
+    }
+}
+
+.error {
+    background-color: $error;
+    &:hover{
+        background-color: $error-hover;
+    }
+}
+
+.info {
+    background-color: $info;
+    &:hover{
+        background-color: $info-hover;
+    }
+}
+
+.success {
+    background-color: $success;
+    &:hover{
+        background-color: $success-hover;
+    }
+}
+
+.warning {
+    background-color: $warning;
+    &:hover{
+        background-color: $warning-hover;
+    }
+}
+

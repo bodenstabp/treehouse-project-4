@@ -1,0 +1,29 @@
+*{
+    font-family: $font-stack;
+    color: $main-font-color;
+}
+
+.headline-primary {
+    color: $accent-color;
+    margin-left: 10px;
+}
+  
+.headline-secondary {
+    font-weight: 300;
+    color: $main-font-color;
+}
+  
+.link {
+    color: $secondary-accent-color;
+    font-weight: $extra-bold-font-weight;
+}
+  
+.blockquote {
+    font-size: $blockquote-font-size;
+    font-weight: $bold-font-weight;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $accent-color;
+    border-radius: 5px;
+}

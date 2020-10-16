@@ -1,0 +1,22 @@
+$main-font-color: #777;
+$accent-color: #58e1c1;
+$secondary-accent-color: #51ddfc;
+$white: #fff;
+$error: #e4757a;
+$info: #927bc1;
+$warning: #fd7856;
+$success: #63cc82;
+$secondary-accent-hover: lighten($secondary-accent-color,15%);
+$error-hover: lighten($error,15%);
+$info-hover: lighten($info,15%);
+$warning-hover: lighten($warning,15%);
+$success-hover: lighten($success,15%);
+
+$breakpoint: 768px;
+
+//Typography
+
+$font-stack:  'Lato', sans-serif;
+$blockquote-font-size: 1.5em;
+$bold-font-weight: 300;
+$extra-bold-font-weight: 700;
